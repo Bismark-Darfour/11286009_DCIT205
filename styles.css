@@ -1,0 +1,241 @@
+/* Body styling */
+body, h1, h2, h3,  {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+main p {
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+
+
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #a08800;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header styling */
+header {
+    background-color: #ffffff;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+/* footer styling */
+footer {
+    background-color: rgb(8, 8, 46);
+    color: #fff;
+    padding: 1em;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 0.9em;
+}
+
+
+.contact-info,
+.quick-links,
+.social-media {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+/*styling for main body */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 20px;
+    position: relative;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.image-container img {
+    width: 30%; /* Adjust the width of each image as needed */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Optional: Add a smooth hover effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Optional: Increase size on hover */
+}
+
+.weltext{
+    display: block;
+    text-align: left
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* Styling for the main section */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 600px;
+}
+
+.contact-info h1 {
+    color: #a08800;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #a08800;
+}
+
+.location-image {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.location-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.location-image img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Updated Chat Box Styling */
+.chat-container {
+    margin-top: 40px;
+    border: 1px solid rgb(5, 15, 59) /* Updated to blue color */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+    justify-content: flex-end; /* Shifts the message box to the right */
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.chat-input button {
+    background-color: #3498db; /* Updated to blue color */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+
+/* Additional CSS for Message Styling */
+.message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
